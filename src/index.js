@@ -1,5 +1,2 @@
 // index.js
-import "./styles.css";
-
-
-
+import './styles.css';
