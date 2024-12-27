@@ -148,11 +148,11 @@ const gameStatus = document.querySelector('#game-status');
 // Create and place ships for both players
 const playerShips = [
   new Ship(3), new Ship(3), new Ship(3), // 3 ships of length 3
-  new Ship(4), new Ship(4),             // 2 ships of length 4
+  new Ship(4), new Ship(4), new Ship(4)  // 2 ships of length 4
 ];
 const computerShips = [
   new Ship(3), new Ship(3), new Ship(3), // 3 ships of length 3
-  new Ship(4), new Ship(4),             // 2 ships of length 4
+  new Ship(4), new Ship(4), new Ship(4)  // 2 ships of length 4
 ];
 
 // Place ships randomly on the boards
