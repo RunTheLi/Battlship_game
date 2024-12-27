@@ -11,7 +11,7 @@ export default class Player {
     return enemyGameboard.receiveAttack(coord);
   }
 
-  // Computer AI to choose a random attack
+  // Computer to choose a random attack
   randomAttack(enemyGameboard) {
     let randomCoord;
     do {
