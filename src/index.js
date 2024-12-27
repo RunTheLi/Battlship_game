@@ -181,13 +181,11 @@ function renderBoard(boardElement, gameboard, isPlayerBoard) {
         cellDiv.style.backgroundColor = 'blue'; // Miss
       }
 
-      // Check if the game is over after the player's attack
       if (computer.gameboard.allSunk()) {
         gameStatus.textContent = 'Player Wins!';
         return;
       }
 
-      // Trigger computer's turn after a delay
       setTimeout(computerTurn, 1000);
     });
 
@@ -203,7 +201,6 @@ function computerTurn() {
     targetCell.style.backgroundColor = 'red'; // Computer hit
   }
 
-  // Check if the game is over after the computer's attack
   if (player.gameboard.allSunk()) {
     gameStatus.textContent = 'Computer Wins!';
   }
