@@ -1,5 +1,61 @@
 /* styles.css */
 body {
-    background-color: rebeccapurple;
-  }
-  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.game-board {
+  margin: 20px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-gap: 5px;
+  justify-content: center;
+}
+
+.grid div {
+  width: 30px;
+  height: 30px;
+  background-color: #4a4a4a;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+
+.info-panel {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
